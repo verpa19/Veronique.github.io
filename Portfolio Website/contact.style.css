@@ -1,0 +1,98 @@
+/* Reset default margin and padding */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family for the entire body */
+body {
+    font-family: 'Montserrat Light';
+}
+
+/* Image Container */
+header .imagediv {
+    height: 90px; /* Adjust height to match navigation bar */
+    padding: 1px;
+    margin-left: 20px; /* Move logo to the left */
+    position: fixed;
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+header .imagediv img {
+    height: 100%;
+}
+
+/* Header Navigation */
+header nav {
+    position: fixed; /* Make the navigation bar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Position it at the left of the viewport */
+    width: 100%; /* Occupy full width */
+    height: 90px; /* Ensure consistent height */
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    background-color: #F6F6F6;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+/* Navigation List */
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 10px; /* Add space between items */
+    position: relative;
+}
+
+/* Navigation Links */
+header nav ul li a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 50px; /* Adjust line height to match height of navigation bar */
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    border: 2px solid transparent; /* Transparent border initially */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover Effect on Links */
+header nav ul li a:hover {
+    color: #757575;
+    border: 2px solid #757575; /* Add border on hover */
+    line-height: 50px; /* Maintain line height */
+    padding: 0px;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    padding: 0;
+    font-family: celesse;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 21px;
+    background-color: #F6F6F6;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
