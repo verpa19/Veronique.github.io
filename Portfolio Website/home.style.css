@@ -110,3 +110,14 @@ h2 {
     font-family: 'Montserrat Light';
     color:#F6F6F6
 }
+
+footer {
+    text-align: center;
+    padding: 21px;
+    background-color: #F6F6F6;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0; /* Ensures footer stretches across the entire width */
+    width: 100%;
+}

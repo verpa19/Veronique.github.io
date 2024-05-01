@@ -74,15 +74,20 @@ header nav ul li a:hover {
 h1 {
     text-align: center;
     font-size: 3em;
-    margin: 0;
     padding: 0;
     font-family: celesse;
-    position: absolute;
-    top: 17%; /* Adjust positioning */
-    right: 53%; /* Adjust positioning */
+    margin-top: 100px;
+    margin-right: 350px;
 }
 
-/* Footer */
+.image-container-center {
+    display: flex;
+    flex-direction: column; /* Ensure images are stacked vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    margin-left: 100px; /* Adjust this value to add space from the left edge */
+}
+
 footer {
     text-align: center;
     padding: 21px;
@@ -90,5 +95,6 @@ footer {
     color: #000;
     position: fixed;
     bottom: 0;
+    left: 0; /* Ensures footer stretches across the entire width */
     width: 100%;
 }
