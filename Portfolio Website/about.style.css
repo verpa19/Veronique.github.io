@@ -79,7 +79,7 @@ h1 {
     font-family: celesse;
     position: absolute;
     top: 8%; /* Adjust positioning */
-    left: 52%; /* Adjust positioning */
+    left: 55%; /* Adjust positioning */
     display: inline-block;
     vertical-align: top;
     margin-top: 76px;
@@ -110,7 +110,7 @@ h2 {
 .text-container {
     flex: 1;
     max-width: 50%;
-    margin-left: 35px; /* Add space between text and image */
+    margin-left: 150px; /* Add space between text and image */
 }
 
 .image-container {
