@@ -84,6 +84,15 @@ h1 {
     transform: translate(-50%, -50%); /* Center horizontally and vertically */
 }
 
+.image-container-center {
+    display: flex;
+    flex-direction: column; /* Ensure images are stacked vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    margin-left: 100px; /* Adjust this value to add space from the left edge */
+    margin-top: 100px;
+}
+
 /* Footer */
 footer {
     text-align: center;

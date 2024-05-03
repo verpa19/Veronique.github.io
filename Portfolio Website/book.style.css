@@ -71,6 +71,25 @@ header nav ul li a:hover {
     padding: 0px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-container {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 150px; /* Add space between text and image */
+}
+
+.image-container {
+    width: 500px;
+    height: 600px;
+    margin-top: 200px;
+}
+
 /* Footer */
 footer {
     text-align: center;
