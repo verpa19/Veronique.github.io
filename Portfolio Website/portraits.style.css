@@ -87,6 +87,7 @@ h1 {
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     margin-left: 100px; /* Adjust this value to add space from the left edge */
+    
 }
 
 .image-container {
