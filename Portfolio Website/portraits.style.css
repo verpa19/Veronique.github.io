@@ -73,11 +73,12 @@ header nav ul li a:hover {
 
 h1 {
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     padding: 0;
     font-family: celesse;
     margin-top: 100px;
-    margin-right: 440px;
+    margin-right: 430px;
+    margin-left: 0px;
 }
 
 .image-container-center {
@@ -86,6 +87,14 @@ h1 {
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
     margin-left: 100px; /* Adjust this value to add space from the left edge */
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px; /* Adjust margin as needed */
+    margin-right: 60px; /* Adjust margin as needed */
 }
 
 /* Footer */

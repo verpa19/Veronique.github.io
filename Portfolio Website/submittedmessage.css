@@ -71,57 +71,34 @@ header nav ul li a:hover {
     padding: 0px;
 }
 
-.container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1; /* Ensure text is on top of the image */
-}
-
-.one {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Push the image to the back */
-}
-
-/* Main Heading */
-h1 {
-    font-size: 4em;
-    margin-top: 120px;
-    padding: 0;
-    font-family: celesse;
-    color: #F6F6F6;
-}
-
-/* Sub Heading */
-h2 {
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat Light';
-    color: #F6F6F6;
-}
-
 .image-container-assests {
-    float: right;
-    margin-top: 20px; /* Adjust margin as needed */
-    margin-right: 24px; /* Adjust margin as needed */
-    clear: both; /* Ensure containers stack below each other */
     position: absolute;
+    top: 0;
+    right: 0;
     margin-top: 200px; /* Adjust margin as needed */
-    margin-right: 21px; /* Adjust margin as needed */
-        position: absolute;
-        top: 20px; /* Adjust top position as needed */
-        right: 24px; /* Adjust right position as needed */
-        z-index: 2; /* Ensure the container is above the background image */
-    }
+    margin-right: 60px; /* Adjust margin as needed */
+}
+
+.div-class-centered{
+    position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-family: 'celesse';
+            font-size: 2em;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 21px;
+    background-color: #F6F6F6;
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+

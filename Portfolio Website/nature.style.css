@@ -88,6 +88,14 @@ h1 {
     margin-left: 100px; /* Adjust this value to add space from the left edge */
 }
 
+.image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 200px; /* Adjust margin as needed */
+    margin-right: 60px; /* Adjust margin as needed */
+}
+
 footer {
     text-align: center;
     padding: 21px;

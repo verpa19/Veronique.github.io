@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Document</title>
-    <link rel="stylesheet" href="nature.style.css">
+    <link rel="stylesheet" href="bookingform.css">
+    <link rel="submittedmessage" href="submittedmessage.html">
     <link rel="HOME" href="home.html">
     <link rel="ABOUT" href="about.html">
-    <link rel="PORTRAITS" href="portraits.html">
     <link rel="NATURE" href="nature.html">
+    <link rel="PORTRAITS" href="portraits.html">
     <link rel="CONTACT" href="contact.html">
     <link rel="BOOK" href="book.html">
+
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -46,31 +48,42 @@
             </div>
         </nav>
 
-        <div class="container mt-5">
-            <h1 class="text-center">Nature:</h1>
-        </div>
+    </header>
 
-        <div class="image conatiner center">
+    <h1>Book Your Session</h1>
+    <h2>Client Details</h2>
+    <h3>Tell us a bit about yourself</h3>
 
-<div class="image-container-center">
-    <img src="flower image 1.JPG" alt="flower image 1" height="1123px" width="794px">
-    <br>
-    <img src="flower image 2.JPG" alt="flower image 2" height="1123px" width="794px">
-    <br>
-    <img src="flower image 3.JPG" alt="flower image 3" height="794px" width="1123px">
-    <br>
-    <img src="flower image 4.JPG" alt="flower image 4" height="794px" width="1123px">
-    <br>
-    <img src="flower image 5.JPG" alt="flower image 5" height="1123px" width="794px">
-    <br>
-    <img src="flower image 6.JPG" alt="flower image 5" height="1123px" width="794px">
-    <br>
-    <img src="flower image 7.JPG" alt="flower image 5" height="794px" width="1123px">
-</div>
+    <div class="contact-form-container">
+        <form action="action_page.php">
+            <label for="fname">Name*</label>
+            <input type="text" id="fname" name="fname" placeholder="Enter Your Name">
+    
+            <div class="input-group">
+                <label for="email">Email*</label>
+                <input type="text" id="email" name="email" placeholder="Enter Your Email">
+            </div>
+    
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter Your Phone Number">
+    
+            <label for="message">Add Your Message</label>
+            <input type="text" id="message" name="message" placeholder="Enter Your Message">
+    
+            <div class="button-container">
+                <input type="button" value="Cancel" onclick="window.location.href='home.html'">
+                <input type="button" value="submit" onclick="window.location.href='submittedmessage.html'">
+            </div>
+                </form>
+            </div>
+            </form>
+            </form>
+            
+        </form>
+    </div>
+    
 
-</div>
-<div>
-    <div class="image-container">
+    <div class="image-container-assests">
         <a href="https://www.facebook.com/profile.php?id=61556836631935">
             <img src="Asset 1.png" alt="Asset 1">
         </a>
@@ -86,19 +99,17 @@
         </a>
     </div>
 </div>
-</div>
-
-    </header>
 
     <footer class="footer mt-5">
         <div class="container">
             <small class="text-muted">Copyright © 2024 Veronique Pace Asciak. All Rights Reserved.</small>
         </div>
     </footer>
-
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
 
 </body>
 </html>

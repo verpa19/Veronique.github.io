@@ -78,45 +78,58 @@ h1 {
     padding: 0;
     font-family: celesse;
     position: absolute;
-    top: 8%; /* Adjust positioning */
-    left: 55%; /* Adjust positioning */
+    top: 4%; /* Adjust positioning */
+    right: 27%; /* Adjust positioning */
     display: inline-block;
     vertical-align: top;
     margin-top: 76px;
+    margin-left: 10%;
 }
 
 h2 {
-    text-align: justify; /* Align to the right */
-    font-size: 19px;
-    margin: 10%;
-    padding: 8%;
-    font-family: 'Montserrat Light';
-    top: 30%; /* Adjust positioning */
-    right: 6%; /* Adjust positioning */
-    left: auto;
-    flex: 1;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 200px;
+    text-align: justify; /* Align the text to justify */
+    font-size: 19px; /* Set the font size to 19 pixels */
+    margin: 10%; /* Set the margin around the element to 10% */
+    font-family: 'Montserrat Light'; /* Use the 'Montserrat Light' font family */
+    top: 30%; /* Adjust the vertical position to 30% from the top */
+    right: 6%; /* Adjust the horizontal position to 6% from the right */
+    left: auto; /* Reset the left position to auto */
+    flex: 1; /* Flex property, typically used within flex containers */
+    vertical-align: top; /* Align the content to the top */
+    margin-top: 210px; /* Set the top margin to 210 pixels */
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-container {
+    flex: 1
+}
+
+.image-container {
+    width: 100px; /* Adjust width as needed */
+    height: 500px; /* Keep the same height as before */
+    margin-top: 200%; /* Adjust margin-top to move image away from the top */
+    margin-right: 20px; /* Adjust margin-right to move image away from the right */
+    margin-left: 40px; /* Adjust margin-left to move image away from the left */
 }
 
 .text-container {
     flex: 1;
-    max-width: 50%;
-    margin-left: 150px; /* Add space between text and image */
 }
 
 .image-container {
-    width: 500px;
-    height: 600px;
-    margin-top: 200px;
+    width: 100px; /* Adjust width as needed */
+    height: 500px; /* Keep the same height as before */
+    margin-top: 200px; /* Keep the same margin-top as before */
+}
+
+.about-image{
+    margin-top: 110px;
+    margin-left: 20px;
 }
 
 /* Footer */
@@ -128,4 +141,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    left: 0; /* Ensure it starts from the left edge */
+    right: 0; /* Ensure it ends at the right edge */
 }
