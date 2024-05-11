@@ -3,101 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="contact.style.css">
-    <link rel="HOME" href="home.html">
-    <link rel="ABOUT" href="about.html">
-    <link rel="NATURE" href="nature.html">
-    <link rel="PORTRAITS" href="portraits.html">
-    <link rel="CONTACT" href="contact.html">
-    <link rel="BOOK" href="book.html">
 </head>
 <body>
     <header>
+        
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
             <a class="navbar-brand" href="#">
                 <img src="VPALogo.jpg" alt="Logo" width="81" height="81">
             </a>
+            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="nature.html">NATURE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portraits.html">PORTRAITS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="book.html">BOOK</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="Index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="nature.html">NATURE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portraits.html">PORTRAITS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="book.html">BOOK</a></li>
                 </ul>
             </div>
         </nav>
+    </header>
 
-        <div class="container">
-            <div class="image-container">
-                <img src="ContactFlowerPic.jpg" alt="Contact Flower Pic.jpg" height="640px" width="730">
-            </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="ContactFlowerPic.jpg" alt="Contact Flower Picture" height="640px" width="730">
+        </div>
+    
+        <div class="content-container">
+            <h1>Let's Talk</h1>
+        </div>
+    
+        <div class="contact-form-container">
+            <form action="mailto:veroniquepa21@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" name="name" placeholder="Enter Your Name" required/>
+    
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" class="form-control" name="lastName" placeholder="Enter Your Last Name" required/>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Enter Your Email" required/>
+    
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" name="subject" placeholder="Enter Your Subject" required/>
+    
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" name="message" placeholder="Enter Your Message Here" required></textarea>
+    
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="image-container-assets">
         
-            <div class="container">
-                <div class="content-container">
-                    <h1>Let's Talk</h1>
-                </div>
-            
-                <div class="contact-form-container">
-                    <form action="mailto:veroniquepa21@gmail.com">
-                        <label for="name" id="name">Name</label>
-                        <input type="text" id="name" class="form-control" name="name" placeholder="Enter Your Name" required/>
-            
-                        <label for="Last Name" id="Last Name">Last Name</label>
-                        <input type="text" id="Last Name" class="form-control" name="Last Name" placeholder="Enter Your Last Name" required/>
-            
-                        <label for="Email" id="Email">Email</label>
-                        <input type="text" id="Email" class="form-control" name="Email" placeholder="Enter Your Email" required/>
+        <a href="https://www.facebook.com/profile.php?id=61556836631935"><img src="Asset1.png" alt="Facebook"></a>
+        <br><br>
+        <a href="https://www.instagram.com/vpa_photography_2024/"><img src="Asset2.png" alt="Instagram"></a>
+        <br><br>
+        <a href="https://www.linkedin.com/in/veronique-pace-asciak-38171425a/"><img src="Asset3.png" alt="LinkedIn"></a>
+    </div>
 
-                        <label for="Subject" id="Subject">Subject</label>
-                        <input type="text" id="Subject" class="form-control" name="Subject" placeholder="Enter Your Subject" required/>
-
-                        <label for="Message" id="Message">Message</label>
-                        <input type="text" id="Message" class="form-control" name="Message" placeholder="Enter Your Message Here" required/>
-                        
-                    </div>
-            <form action="submittedmessage.html">
-                    <button type="submit" class="submit-button">submit</button>
-                </form>
-                
-            </div>
-
-            <div>
-                <div class="image-container-assests">
-                    <a href="https://www.facebook.com/profile.php?id=61556836631935">
-                        <img src="Asset1.png" alt="Asset 1">
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://www.instagram.com/vpa_photography_2024/">
-                        <img src="Asset2.png" alt="Asset 2">
-                    </a>
-                    <br>
-                    <br>
-                    <a href="https://www.linkedin.com/in/veronique-pace-asciak-38171425a/">
-                        <img src="Asset3.png" alt="Asset 3">
-                    </a>
-                </div>
-
-            <footer class="footer mt-5">
-                <div class="container">
-                    <small class="text-muted">Copyright © 2024 Veronique Pace Asciak. All Rights Reserved.</small>
-                </div>
-            </footer>
+    <footer class="footer mt-5">
+        <div class="container">
+            <small class="text-muted">Copyright © 2024 Veronique Pace Asciak. All Rights Reserved.</small>
+        </div>
+    </footer>
+</body>
+</html>
