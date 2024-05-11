@@ -147,6 +147,17 @@ footer {
     margin-right: auto; /* Center the footer horizontally */
 }
 
+.about-image {
+    height: 500px;
+    width: 700px;
+    /* Add any additional styling for the image */
+}
+
+img[src="VPALogo.jpg"] {
+    width: 81px;
+    height: 81px;
+    /* Add any additional styles here */
+}
 
 .margin-auto{
     margin-left:auto;

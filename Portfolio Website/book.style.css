@@ -152,6 +152,21 @@ p{
     font-size: 2em;
 }
 
+img[src="flowerimage1.JPG"] {
+    height: 400px;
+    width: 300px;
+}
+
+img[src="Portrait1.JPG"] {
+    height: 400px;
+    width: 300px;
+}
+
+img[src="VPALogo.jpg"] {
+    width: 81px;
+    height: 81px;
+}
+
 /* Footer */
 footer {
     text-align: center;

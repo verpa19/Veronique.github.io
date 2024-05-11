@@ -98,6 +98,17 @@ h1 {
     margin-right: 60px; /* Adjust margin as needed */
 }
 
+.image-container-center img:nth-of-type(3),
+.image-container-center img:nth-of-type(5) {
+    height: 1123px;
+}
+
+.image-container-center img:nth-of-type(1),
+.image-container-center img:nth-of-type(2),
+.image-container-center img:nth-of-type(4) {
+    height: 794px;
+}
+
 /* Footer */
 footer {
     text-align: center;

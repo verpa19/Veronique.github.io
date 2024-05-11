@@ -166,6 +166,10 @@ input[type=submit]:hover {
     margin-right: 60px; /* Adjust margin as needed */
 }
 
+img[src="ContactFlowerPic.jpg"] {
+    height: 640px;
+    width: 730px;}
+
 /* Footer Styles */
 footer {
     text-align: center;

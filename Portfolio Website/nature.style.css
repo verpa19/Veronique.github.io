@@ -96,6 +96,18 @@ h1 {
     margin-right: 60px; /* Adjust margin as needed */
 }
 
+.image-container-center img {
+    height: 1123px;
+    width: 794px;
+}
+
+.image-container-center img:nth-of-type(3),
+.image-container-center img:nth-of-type(4),
+.image-container-center img:nth-of-type(7) {
+    height: 794px;
+    width: 1110px;
+}
+
 footer {
     text-align: center;
     padding: 21px;
